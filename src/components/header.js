@@ -9,8 +9,12 @@ const Header = ({ siteTitle }) => (
       display: `flex`,
       alignItems: `center`,
       justifyContent: `space-between`,
+      background:"#bca0ca",
+      color:"black"
     }}
+   
   >
+     <h2 style={{padding:"0px"}}>Gatsby-Techno</h2>
     <Link
       to="/"
       style={{
@@ -18,7 +22,7 @@ const Header = ({ siteTitle }) => (
         textDecoration: `none`,
       }}
     >
-      {siteTitle}
+       
     </Link>
     <img
       alt="Gatsby logo"
